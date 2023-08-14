@@ -111,6 +111,15 @@ img {
     padding: 0 15px; 
 }
 
+.active::after {
+    content: "";
+    background: var(--btn-hover-color);
+    width: 48px;
+    height: 4px;
+    border-radius: 2px;
+    bottom: -1;
+}
+
 /* Index html */
 
 /* Header */
